@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\shellcode">
+      <UniqueIdentifier>{48d3526d-ef3d-414d-820f-b3c0a10336fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DynamicLoad">
+      <UniqueIdentifier>{b28e631c-fe86-4275-9fd5-99fbb49718a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Decryption">
+      <UniqueIdentifier>{b9112651-2692-4224-9148-fe796f7b6d1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shellcodeEnc32.c">
+      <Filter>Source Files\shellcode</Filter>
+    </ClCompile>
+    <ClCompile Include="shellcodeEnc64.c">
+      <Filter>Source Files\shellcode</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicLoad\LoadAPI.c">
+      <Filter>Source Files\DynamicLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicLoad\CalcAPI.c">
+      <Filter>Source Files\DynamicLoad</Filter>
+    </ClCompile>
+    <ClCompile Include="Decryption.c">
+      <Filter>Source Files\Decryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shellcode.h">
+      <Filter>Source Files\shellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicLoad\CalcAPI.h">
+      <Filter>Source Files\DynamicLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicLoad\LoadAPI.h">
+      <Filter>Source Files\DynamicLoad</Filter>
+    </ClInclude>
+    <ClInclude Include="Decryption.h">
+      <Filter>Source Files\Decryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Source Files\DynamicLoad</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
